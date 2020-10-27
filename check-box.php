@@ -4,6 +4,7 @@
 $lazeresc = isset($_POST['selLazer'])?$_POST['selLazer'] : array();
 var_dump($lazeresc);
 $lazer = array('Informática','Música','Basqueste','Tenis','Volei');
+
 ?>
 <html lang="pt-BR">
 <head>
@@ -14,10 +15,10 @@ $lazer = array('Informática','Música','Basqueste','Tenis','Volei');
 <body>
 <div>
 	<ul>
-		<li><a href="exSelect.php">Exemplo Select</a></li>
-		<li><a href="exText.php">Exemplo Text</a></li>
-		<li><a href="exSelectMultiple.php">Exemplo Select Multiple</a></li>
-		<li><a href="exRadio.php">Exemplo Radio</a></li>
+		<li><a href="select.php">Exemplo Select</a></li>
+		<li><a href="text.php">Exemplo Text</a></li>
+		<li><a href="select-multiple.php">Exemplo Select Multiple</a></li>
+		<li><a href="radio.php">Exemplo Radio</a></li>
 	</ul>
 </div>
 <form class="" action="" method="post">

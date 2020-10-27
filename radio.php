@@ -13,10 +13,10 @@ $strText=isset($_POST['rbSexo'])?$_POST['rbSexo']:'M';
 <body>
 	<div>
 		<ul>
-			<li><a href="exSelect.php">Exemplo Select</a></li>
-			<li><a href="exCheckBox.php">Exemplo Checkbox</a></li>
-			<li><a href="exSelectMultiple.php">Exemplo Select Multiple</a></li>
-			<li><a href="exText.php">Exemplo Text</a></li>
+			<li><a href="select.php">Exemplo Select</a></li>
+			<li><a href="check-box.php">Exemplo Checkbox</a></li>
+			<li><a href="select-multiple.php">Exemplo Select Multiple</a></li>
+			<li><a href="text.php">Exemplo Text</a></li>
 		</ul>
 	</div>
 <form class="" action="" method="post">

@@ -11,10 +11,10 @@ $texto=isset($_POST['texto'])?$_POST['texto']:'';
 <body>
 <div>
 	<ul>
-		<li><a href="exSelect.php">Exemplo Select</a></li>
-		<li><a href="exCheckBox.php">Exemplo Checkbox</a></li>
-		<li><a href="exSelectMultiple.php">Exemplo Select Multiple</a></li>
-		<li><a href="exRadio.php">Exemplo Radio</a></li>
+		<li><a href="select.php">Exemplo Select</a></li>
+		<li><a href="check-box.php">Exemplo Checkbox</a></li>
+		<li><a href="select-multiple.php">Exemplo Select Multiple</a></li>
+		<li><a href="radio.php">Exemplo Radio</a></li>
 	</ul>
 </div>
 <form class="" action="" method="post">

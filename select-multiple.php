@@ -12,16 +12,16 @@
 <body>
 	<div>
 		<ul>
-			<li><a href="exSelect.php">Exemplo Select</a></li>
-			<li><a href="exCheckBox.php">Exemplo Checkbox</a></li>
-			<li><a href="exText.php">Exemplo Text</a></li>
-			<li><a href="exRadio.php">Exemplo Radio</a></li>
+			<li><a href="select.php">Exemplo Select</a></li>
+			<li><a href="check-box.php">Exemplo Checkbox</a></li>
+			<li><a href="text.php">Exemplo Text</a></li>
+			<li><a href="radio.php">Exemplo Radio</a></li>
 		</ul>
 	</div>
 <form class="" action="" method="post">
 	<label>Lazer</label><br>
 		<select name="selLazer[]" id="selLazer[]" multiple="multiple" size="6">
-			<option value="0">							</option>
+			<option value="">							</option>
 			<?php
 			for ($i=0; $i < count($lazer); $i++) {
 				if(in_array($lazer[$i],$lazeresc))
